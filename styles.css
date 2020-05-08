@@ -1,0 +1,19 @@
+.video-container {
+  display: flex;
+  align-items: center;
+}
+.video-container .overlay {
+  width: 300px;
+  height: 300px;
+  border-radius: 80% 15% 55% 50%/55% 15% 80% 50%;
+  border: 3px solid #1c446b;
+  transform: rotate(135deg);
+  margin-top: 30px;
+  background: transparent;
+  position: absolute;
+}
+.video-container video {
+  width: 100vw;
+}
+
+/*# sourceMappingURL=styles.css.map */
